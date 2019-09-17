@@ -1,0 +1,17 @@
+C:\Users\hmiller\Source\Repos\RomanNumeralsKata\RomanNumeralsTests\bin\Debug\netcoreapp2.1\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+C:\Users\hmiller\Source\Repos\RomanNumeralsKata\RomanNumeralsTests\bin\Debug\netcoreapp2.1\xunit.runner.reporters.netcoreapp10.dll
+C:\Users\hmiller\Source\Repos\RomanNumeralsKata\RomanNumeralsTests\bin\Debug\netcoreapp2.1\xunit.runner.utility.netcoreapp10.dll
+C:\Users\hmiller\Source\Repos\RomanNumeralsKata\RomanNumeralsTests\bin\Debug\netcoreapp2.1\RomanNumeralsTests.deps.json
+C:\Users\hmiller\Source\Repos\RomanNumeralsKata\RomanNumeralsTests\bin\Debug\netcoreapp2.1\RomanNumeralsTests.runtimeconfig.json
+C:\Users\hmiller\Source\Repos\RomanNumeralsKata\RomanNumeralsTests\bin\Debug\netcoreapp2.1\RomanNumeralsTests.runtimeconfig.dev.json
+C:\Users\hmiller\Source\Repos\RomanNumeralsKata\RomanNumeralsTests\bin\Debug\netcoreapp2.1\RomanNumeralsTests.dll
+C:\Users\hmiller\Source\Repos\RomanNumeralsKata\RomanNumeralsTests\bin\Debug\netcoreapp2.1\RomanNumeralsTests.pdb
+C:\Users\hmiller\Source\Repos\RomanNumeralsKata\RomanNumeralsTests\bin\Debug\netcoreapp2.1\RomanNumerals.dll
+C:\Users\hmiller\Source\Repos\RomanNumeralsKata\RomanNumeralsTests\bin\Debug\netcoreapp2.1\RomanNumerals.pdb
+C:\Users\hmiller\Source\Repos\RomanNumeralsKata\RomanNumeralsTests\obj\Debug\netcoreapp2.1\RomanNumeralsTests.csprojAssemblyReference.cache
+C:\Users\hmiller\Source\Repos\RomanNumeralsKata\RomanNumeralsTests\obj\Debug\netcoreapp2.1\RomanNumeralsTests.csproj.CoreCompileInputs.cache
+C:\Users\hmiller\Source\Repos\RomanNumeralsKata\RomanNumeralsTests\obj\Debug\netcoreapp2.1\RomanNumeralsTests.AssemblyInfoInputs.cache
+C:\Users\hmiller\Source\Repos\RomanNumeralsKata\RomanNumeralsTests\obj\Debug\netcoreapp2.1\RomanNumeralsTests.AssemblyInfo.cs
+C:\Users\hmiller\Source\Repos\RomanNumeralsKata\RomanNumeralsTests\obj\Debug\netcoreapp2.1\RomanNumeralsTests.csproj.CopyComplete
+C:\Users\hmiller\Source\Repos\RomanNumeralsKata\RomanNumeralsTests\obj\Debug\netcoreapp2.1\RomanNumeralsTests.dll
+C:\Users\hmiller\Source\Repos\RomanNumeralsKata\RomanNumeralsTests\obj\Debug\netcoreapp2.1\RomanNumeralsTests.pdb

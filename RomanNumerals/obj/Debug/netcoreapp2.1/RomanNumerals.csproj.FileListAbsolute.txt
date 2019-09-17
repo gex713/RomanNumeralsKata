@@ -1,0 +1,9 @@
+C:\Users\hmiller\Source\Repos\RomanNumeralsKata\RomanNumerals\bin\Debug\netcoreapp2.1\RomanNumerals.deps.json
+C:\Users\hmiller\Source\Repos\RomanNumeralsKata\RomanNumerals\bin\Debug\netcoreapp2.1\RomanNumerals.dll
+C:\Users\hmiller\Source\Repos\RomanNumeralsKata\RomanNumerals\bin\Debug\netcoreapp2.1\RomanNumerals.pdb
+C:\Users\hmiller\Source\Repos\RomanNumeralsKata\RomanNumerals\obj\Debug\netcoreapp2.1\RomanNumerals.csprojAssemblyReference.cache
+C:\Users\hmiller\Source\Repos\RomanNumeralsKata\RomanNumerals\obj\Debug\netcoreapp2.1\RomanNumerals.csproj.CoreCompileInputs.cache
+C:\Users\hmiller\Source\Repos\RomanNumeralsKata\RomanNumerals\obj\Debug\netcoreapp2.1\RomanNumerals.AssemblyInfoInputs.cache
+C:\Users\hmiller\Source\Repos\RomanNumeralsKata\RomanNumerals\obj\Debug\netcoreapp2.1\RomanNumerals.AssemblyInfo.cs
+C:\Users\hmiller\Source\Repos\RomanNumeralsKata\RomanNumerals\obj\Debug\netcoreapp2.1\RomanNumerals.dll
+C:\Users\hmiller\Source\Repos\RomanNumeralsKata\RomanNumerals\obj\Debug\netcoreapp2.1\RomanNumerals.pdb
