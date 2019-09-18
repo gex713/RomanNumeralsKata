@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Text;
 
 namespace RomanNumerals
 {
@@ -11,41 +12,34 @@ namespace RomanNumerals
 
         public string ArabicToRoman(int number)
         {
-            string numerals = String.Empty;
+            StringBuilder builder = new StringBuilder();
             int remainder = number;
 
-            if(number == 14)
-            {
-                numerals += "XIV";
-                remainder -= 14;
-            }
-            else if(number >= 10)
-            {
-                numerals += "X";
-                remainder -= 10;
-            }
-            else if(number == 9)
-            {
-                numerals += "IX";
-                remainder -= 9;
-            }
-            else if (number >= 5)
-            {
-                numerals += "V";
-                remainder -= 5;
-            }
-            else if (number == 4)
-            {
-                numerals += "IV";
-                remainder -= 4;
-            }
+            remainder = AppendNumerals(remainder, 14, "XIV", builder);
+            remainder = AppendNumerals(remainder, 10, "X", builder);
+            remainder = AppendNumerals(remainder, 9, "IX", builder);
+            remainder = AppendNumerals(remainder, 5, "V", builder);
+            remainder = AppendNumerals(remainder, 4, "IV", builder);
 
             for (int i = 0; i < remainder; i++)
             {
-                numerals += "I";
+                builder.Append("I");
             }
 
-            return numerals;
+            return builder.ToString();
+        }
+
+        private int AppendNumerals(int arabicNumber, int value, string romanNumeral, StringBuilder builder)
+        {
+            int result = arabicNumber;
+
+            if (result >= value)
+            {
+                builder.Append(romanNumeral);
+                result -= value;
+            }
+
+            return result;
         }
     }
 }
