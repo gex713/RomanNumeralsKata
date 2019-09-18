@@ -90,6 +90,7 @@ namespace RomanNumeralsTests
         [InlineData(11, "XI")]
         [InlineData(12, "XII")]
         [InlineData(13, "XIII")]
+        [InlineData(14, "XIV")]
         public void ArabaicToNumeralsWorksCorrectly(int numToConvert, string expected)
         {
             var converter = new RomanNumerals.RomanNumerals();
