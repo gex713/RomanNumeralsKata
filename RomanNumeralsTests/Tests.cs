@@ -37,5 +37,13 @@ namespace RomanNumeralsTests
 
             converter.ArabicToRoman(4).Should().Be("IV");
         }
+
+        [Fact]
+        public void Five()
+        {
+            var converter = new RomanNumerals.RomanNumerals();
+
+            converter.ArabicToRoman(5).Should().Be("V");
+        }
     }
 }
