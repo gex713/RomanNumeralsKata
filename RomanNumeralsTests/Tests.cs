@@ -29,5 +29,13 @@ namespace RomanNumeralsTests
 
             converter.ArabicToRoman(3).Should().Be("III");
         }
+
+        [Fact]
+        public void Four()
+        {
+            var converter = new RomanNumerals.RomanNumerals();
+
+            converter.ArabicToRoman(4).Should().Be("IV");
+        }
     }
 }
