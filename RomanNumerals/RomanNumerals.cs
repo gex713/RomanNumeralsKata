@@ -13,12 +13,20 @@ namespace RomanNumerals
         {
             string numerals = String.Empty;
 
-            if (number == 5) return "V";
-            if (number == 4) return "IV";
-
-            for(int i = 0; i < number; i++)
+            if (number == 5)
             {
-                numerals += "I";
+                numerals += "V";
+            }
+            else if (number == 4)
+            {
+                numerals += "IV";
+            }
+            else
+            {
+                for (int i = 0; i < number; i++)
+                {
+                    numerals += "I";
+                }
             }
 
             return numerals;
