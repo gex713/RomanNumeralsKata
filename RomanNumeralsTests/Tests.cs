@@ -69,5 +69,13 @@ namespace RomanNumeralsTests
 
             converter.ArabicToRoman(8).Should().Be("VIII");
         }
+
+        [Fact]
+        public void Nine()
+        {
+            var converter = new RomanNumerals.RomanNumerals();
+
+            converter.ArabicToRoman(9).Should().Be("IX");
+        }
     }
 }
