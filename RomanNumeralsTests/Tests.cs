@@ -11,7 +11,7 @@ namespace RomanNumeralsTests
         {
             var converter = new RomanNumerals.RomanNumerals();
 
-            converter.Convert(1).Should().Be("I");
+            converter.ArabicToRoman(1).Should().Be("I");
         }
     }
 }

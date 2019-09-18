@@ -9,9 +9,9 @@ namespace RomanNumerals
 
         }
 
-        public string Convert(int number)
+        public string ArabicToRoman(int number)
         {
-            return "";
+            return "I";
         }
     }
 }
