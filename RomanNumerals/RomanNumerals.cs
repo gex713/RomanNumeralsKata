@@ -11,9 +11,14 @@ namespace RomanNumerals
 
         public string ArabicToRoman(int number)
         {
-            if (number == 3) return "III";
-            if (number == 2) return "II";
-            return "I";
+            string numerals = String.Empty;
+
+            for(int i = 0; i < number; i++)
+            {
+                numerals += "I";
+            }
+
+            return numerals;
         }
     }
 }
