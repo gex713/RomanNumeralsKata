@@ -45,5 +45,13 @@ namespace RomanNumeralsTests
 
             converter.ArabicToRoman(5).Should().Be("V");
         }
+
+        [Fact]
+        public void Six()
+        {
+            var converter = new RomanNumerals.RomanNumerals();
+
+            converter.ArabicToRoman(6).Should().Be("VI");
+        }
     }
 }
