@@ -53,5 +53,21 @@ namespace RomanNumeralsTests
 
             converter.ArabicToRoman(6).Should().Be("VI");
         }
+
+        [Fact]
+        public void Seven()
+        {
+            var converter = new RomanNumerals.RomanNumerals();
+
+            converter.ArabicToRoman(7).Should().Be("VII");
+        }
+
+        [Fact]
+        public void Eight()
+        {
+            var converter = new RomanNumerals.RomanNumerals();
+
+            converter.ArabicToRoman(8).Should().Be("VIII");
+        }
     }
 }
