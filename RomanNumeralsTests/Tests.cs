@@ -77,5 +77,13 @@ namespace RomanNumeralsTests
 
             converter.ArabicToRoman(9).Should().Be("IX");
         }
+
+        [Fact]
+        public void Ten()
+        {
+            var converter = new RomanNumerals.RomanNumerals();
+
+            converter.ArabicToRoman(10).Should().Be("X");
+        }
     }
 }
