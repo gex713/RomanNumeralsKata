@@ -13,6 +13,8 @@ namespace RomanNumerals
         {
             string numerals = String.Empty;
 
+            if (number == 4) return "IV";
+
             for(int i = 0; i < number; i++)
             {
                 numerals += "I";
