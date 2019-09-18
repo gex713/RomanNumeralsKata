@@ -85,5 +85,16 @@ namespace RomanNumeralsTests
 
             converter.ArabicToRoman(10).Should().Be("X");
         }
+
+        [Theory]
+        [InlineData(11, "XI")]
+        [InlineData(12, "XII")]
+        [InlineData(13, "XIII")]
+        public void ArabaicToNumeralsWorksCorrectly(int numToConvert, string expected)
+        {
+            var converter = new RomanNumerals.RomanNumerals();
+
+            converter.ArabicToRoman(numToConvert).Should().Be(expected);
+        }
     }
 }
