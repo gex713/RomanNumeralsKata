@@ -21,5 +21,13 @@ namespace RomanNumeralsTests
 
             converter.ArabicToRoman(2).Should().Be("II");
         }
+
+        [Fact]
+        public void Three()
+        {
+            var converter = new RomanNumerals.RomanNumerals();
+
+            converter.ArabicToRoman(3).Should().Be("III");
+        }
     }
 }
