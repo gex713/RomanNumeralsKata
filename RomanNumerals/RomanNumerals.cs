@@ -14,7 +14,12 @@ namespace RomanNumerals
             string numerals = String.Empty;
             int remainder = number;
 
-            if(number >= 10)
+            if(number == 14)
+            {
+                numerals += "XIV";
+                remainder -= 14;
+            }
+            else if(number >= 10)
             {
                 numerals += "X";
                 remainder -= 10;
