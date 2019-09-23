@@ -5,8 +5,8 @@ namespace RomanNumerals
 {
     public class RomanNumerals
     {
-        public static List<int> arabicRepresentation = new List<int> { 14, 10, 9, 5, 4 };
-        public static List<string> romanRepresentation = new List<string> { "XIV", "X", "IX", "V", "IV" };
+        public static List<int> arabicRepresentation = new List<int> { 14, 10, 9, 5, 4, 1 };
+        public static List<string> romanRepresentation = new List<string> { "XIV", "X", "IX", "V", "IV", "I" };
 
         public RomanNumerals()
         {
@@ -23,12 +23,6 @@ namespace RomanNumerals
                 remainder = AppendNumerals(remainder, arabicRepresentation[i], romanRepresentation[i], builder);
             }
 
-            while(remainder >= 1)
-            {
-                builder.Append("I");
-                remainder--;
-            }
-
             return builder.ToString();
         }
 
@@ -36,7 +30,7 @@ namespace RomanNumerals
         {
             int result = arabicNumber;
 
-            if (result >= value)
+            while (result >= value)
             {
                 builder.Append(romanNumeral);
                 result -= value;
