@@ -1,10 +1,13 @@
-﻿using System;
+﻿using System.Collections.Generic;
 using System.Text;
 
 namespace RomanNumerals
 {
     public class RomanNumerals
     {
+        public static List<int> arabicRepresentation = new List<int> { 14, 10, 9, 5, 4 };
+        public static List<string> romanRepresentation = new List<string> { "XIV", "X", "IX", "V", "IV" };
+
         public RomanNumerals()
         {
 
@@ -15,11 +18,10 @@ namespace RomanNumerals
             StringBuilder builder = new StringBuilder();
             int remainder = number;
 
-            remainder = AppendNumerals(remainder, 14, "XIV", builder);
-            remainder = AppendNumerals(remainder, 10, "X", builder);
-            remainder = AppendNumerals(remainder, 9, "IX", builder);
-            remainder = AppendNumerals(remainder, 5, "V", builder);
-            remainder = AppendNumerals(remainder, 4, "IV", builder);
+            for (int i = 0; i < arabicRepresentation.Count; i++)
+            {
+                remainder = AppendNumerals(remainder, arabicRepresentation[i], romanRepresentation[i], builder);
+            }
 
             for (int i = 0; i < remainder; i++)
             {
