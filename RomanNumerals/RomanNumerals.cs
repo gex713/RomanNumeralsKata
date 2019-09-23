@@ -23,9 +23,10 @@ namespace RomanNumerals
                 remainder = AppendNumerals(remainder, arabicRepresentation[i], romanRepresentation[i], builder);
             }
 
-            for (int i = 0; i < remainder; i++)
+            while(remainder >= 1)
             {
                 builder.Append("I");
+                remainder--;
             }
 
             return builder.ToString();
