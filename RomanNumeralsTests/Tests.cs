@@ -127,6 +127,9 @@ namespace RomanNumeralsTests
         [InlineData(48, "XLVIII")]
         [InlineData(49, "XLIX")]
         [InlineData(50, "L")]
+        [InlineData(95, "LXLV")]
+        [InlineData(98, "LXLVIII")]
+        [InlineData(99, "IC")]
         public void ArabicToNumeralsWorksCorrectly(int numToConvert, string expected)
         {
             var converter = new RomanNumerals.RomanNumerals();
