@@ -117,6 +117,16 @@ namespace RomanNumeralsTests
         [InlineData(38, "XXXVIII")]
         [InlineData(39, "XXXIX")]
         [InlineData(40, "XL")]
+        [InlineData(41, "XLI")]
+        [InlineData(42, "XLII")]
+        [InlineData(43, "XLIII")]
+        [InlineData(44, "XLIV")]
+        [InlineData(45, "XLV")]
+        [InlineData(46, "XLVI")]
+        [InlineData(47, "XLVII")]
+        [InlineData(48, "XLVIII")]
+        [InlineData(49, "XLIX")]
+        [InlineData(50, "L")]
         public void ArabicToNumeralsWorksCorrectly(int numToConvert, string expected)
         {
             var converter = new RomanNumerals.RomanNumerals();
