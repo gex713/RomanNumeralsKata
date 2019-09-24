@@ -95,6 +95,7 @@ namespace RomanNumeralsTests
         [InlineData(16, "XVI")]
         [InlineData(17, "XVII")]
         [InlineData(18, "XVIII")]
+        [InlineData(19, "XIX")]
         public void ArabaicToNumeralsWorksCorrectly(int numToConvert, string expected)
         {
             var converter = new RomanNumerals.RomanNumerals();
