@@ -96,7 +96,28 @@ namespace RomanNumeralsTests
         [InlineData(17, "XVII")]
         [InlineData(18, "XVIII")]
         [InlineData(19, "XIX")]
-        public void ArabaicToNumeralsWorksCorrectly(int numToConvert, string expected)
+        [InlineData(20, "XX")]
+        [InlineData(21, "XXI")]
+        [InlineData(22, "XXII")]
+        [InlineData(23, "XXIII")]
+        [InlineData(24, "XXIV")]
+        [InlineData(25, "XXV")]
+        [InlineData(26, "XXVI")]
+        [InlineData(27, "XXVII")]
+        [InlineData(28, "XXVIII")]
+        [InlineData(29, "XXIX")]
+        [InlineData(30, "XXX")]
+        [InlineData(31, "XXXI")]
+        [InlineData(32, "XXXII")]
+        [InlineData(33, "XXXIII")]
+        [InlineData(34, "XXXIV")]
+        [InlineData(35, "XXXV")]
+        [InlineData(36, "XXXVI")]
+        [InlineData(37, "XXXVII")]
+        [InlineData(38, "XXXVIII")]
+        [InlineData(39, "XXXIX")]
+        [InlineData(40, "XL")]
+        public void ArabicToNumeralsWorksCorrectly(int numToConvert, string expected)
         {
             var converter = new RomanNumerals.RomanNumerals();
 
