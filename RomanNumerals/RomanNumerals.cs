@@ -5,8 +5,8 @@ namespace RomanNumerals
 {
     public class RomanNumerals
     {
-        public static List<int> arabicRepresentation = new List<int> { 50, 40, 10, 9, 5, 4, 1 };
-        public static List<string> romanRepresentation = new List<string> { "L", "XL", "X", "IX", "V", "IV", "I" };
+        public static List<int> arabicRepresentation = new List<int> { 1000, 900, 500, 400, 100, 90, 50, 40, 10, 9, 5, 4, 1 };
+        public static List<string> romanRepresentation = new List<string> { "M", "CM", "D", "CD", "C", "XC", "L", "XL", "X", "IX", "V", "IV", "I" };
 
         public RomanNumerals()
         {

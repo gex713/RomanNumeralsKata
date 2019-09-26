@@ -130,9 +130,20 @@ namespace RomanNumeralsTests
         [InlineData(80, "LXXX")]
         [InlineData(85, "LXXXV")]
         [InlineData(89, "LXXXIX")]
+        [InlineData(90, "XC")]
+        [InlineData(91, "XCI")]
+        [InlineData(92, "XCII")]
+        [InlineData(93, "XCIII")]
+        [InlineData(94, "XCIV")]
         [InlineData(95, "XCV")]
+        [InlineData(96, "XCVI")]
+        [InlineData(97, "XCVII")]
         [InlineData(98, "XCVIII")]
         [InlineData(99, "XCIX")]
+        [InlineData(100, "C")]
+        [InlineData(1256, "MCCLVI")]
+        [InlineData(2458, "MMCDLVIII")]
+        [InlineData(3000, "MMM")]
         public void ArabicToNumeralsWorksCorrectly(int numToConvert, string expected)
         {
             var converter = new RomanNumerals.RomanNumerals();
