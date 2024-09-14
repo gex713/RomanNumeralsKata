@@ -7,3 +7,14 @@ C:\Users\hmiller\Source\Repos\RomanNumeralsKata\RomanNumerals\obj\Debug\netcorea
 C:\Users\hmiller\Source\Repos\RomanNumeralsKata\RomanNumerals\obj\Debug\netcoreapp2.1\RomanNumerals.AssemblyInfo.cs
 C:\Users\hmiller\Source\Repos\RomanNumeralsKata\RomanNumerals\obj\Debug\netcoreapp2.1\RomanNumerals.dll
 C:\Users\hmiller\Source\Repos\RomanNumeralsKata\RomanNumerals\obj\Debug\netcoreapp2.1\RomanNumerals.pdb
+C:\Users\gex71\source\repos\gex713\RomanNumeralsKata\RomanNumerals\bin\Debug\netcoreapp2.1\RomanNumerals.deps.json
+C:\Users\gex71\source\repos\gex713\RomanNumeralsKata\RomanNumerals\bin\Debug\netcoreapp2.1\RomanNumerals.dll
+C:\Users\gex71\source\repos\gex713\RomanNumeralsKata\RomanNumerals\bin\Debug\netcoreapp2.1\RomanNumerals.pdb
+C:\Users\gex71\source\repos\gex713\RomanNumeralsKata\RomanNumerals\obj\Debug\netcoreapp2.1\RomanNumerals.csproj.AssemblyReference.cache
+C:\Users\gex71\source\repos\gex713\RomanNumeralsKata\RomanNumerals\obj\Debug\netcoreapp2.1\RomanNumerals.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gex71\source\repos\gex713\RomanNumeralsKata\RomanNumerals\obj\Debug\netcoreapp2.1\RomanNumerals.AssemblyInfoInputs.cache
+C:\Users\gex71\source\repos\gex713\RomanNumeralsKata\RomanNumerals\obj\Debug\netcoreapp2.1\RomanNumerals.AssemblyInfo.cs
+C:\Users\gex71\source\repos\gex713\RomanNumeralsKata\RomanNumerals\obj\Debug\netcoreapp2.1\RomanNumerals.csproj.CoreCompileInputs.cache
+C:\Users\gex71\source\repos\gex713\RomanNumeralsKata\RomanNumerals\obj\Debug\netcoreapp2.1\RomanNumerals.sourcelink.json
+C:\Users\gex71\source\repos\gex713\RomanNumeralsKata\RomanNumerals\obj\Debug\netcoreapp2.1\RomanNumerals.dll
+C:\Users\gex71\source\repos\gex713\RomanNumeralsKata\RomanNumerals\obj\Debug\netcoreapp2.1\RomanNumerals.pdb
